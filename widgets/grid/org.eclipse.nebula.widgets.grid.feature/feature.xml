@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.nebula.widgets.grid.feature"
+      label="Nebula Grid Feature"
+      version="1.0.0.qualifier"
+      provider-name="Eclipse Nebula">
+
+   <description url="http://eclipse.org/nebula">
+      Nebula Grid
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.nebula.widgets.grid"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.qualifier"
+         unpack="false"/>
+
+</feature>
