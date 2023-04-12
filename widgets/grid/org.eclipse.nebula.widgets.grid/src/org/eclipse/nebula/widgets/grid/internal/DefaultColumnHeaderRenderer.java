@@ -156,7 +156,9 @@ public class DefaultColumnHeaderRenderer extends GridHeaderRenderer
             width -= arrowMargin + arrowRenderer.getSize().x + arrowMargin;
         }
 
-        gc.setForeground(getDisplay().getSystemColor(SWT.COLOR_WIDGET_FOREGROUND));
+        //gc.setForeground(getDisplay().getSystemColor(SWT.COLOR_WIDGET_FOREGROUND));
+        /*Changed for Bio7!*/
+    	gc.setForeground(Util.getShell().getForeground());
 
         int y = bottomMargin;
 

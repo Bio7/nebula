@@ -158,7 +158,7 @@ public class DefaultRowHeaderRenderer extends AbstractRenderer
         	foreground = getDisplay().getSystemColor(SWT.COLOR_WIDGET_FOREGROUND);
         }
         
-        gc.setForeground(foreground);
+        gc.setForeground(Util.getShell().getForeground());
 
         
         int y = getBounds().y;
